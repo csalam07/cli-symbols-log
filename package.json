@@ -1,6 +1,6 @@
 {
   "name": "cli-symbols-log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GIve you colorful symbols for various level of log",
   "main": "index.js",
   "type": "module",
@@ -13,10 +13,11 @@
   },
   "files": [
     "index.js",
-    "option.js"
+    "option.js",
+    "index.d.ts"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -48,7 +49,7 @@
   "homepage": "https://github.com/csalam07/cli-symbols-log#readme",
   "dependencies": {
     "chalk": "^5.0.1",
-    "is-unicode-cli": "^1.0.0"
+    "is-unicode-cli": "^1.0.2"
   },
   "devDependencies": {
     "ava": "^4.1.0",
