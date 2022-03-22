@@ -1,0 +1,57 @@
+{
+  "name": "cli-symbols-log",
+  "version": "1.0.0",
+  "description": "GIve you colorful symbols for various level of log",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    "node": "./index.js",
+    "default": "./browser.js"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "files": [
+    "index.js",
+    "option.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csalam07/cli-symbols-log.git"
+  },
+  "keywords": [
+    "cli",
+    "console",
+    "unicode",
+    "log",
+    "symbols",
+    "symbols-log",
+    "terminal",
+    "detect",
+    "utf8",
+    "shell",
+    "csalam",
+    "csalam07"
+  ],
+  "author": {
+    "name": "csalam07",
+    "linkedIn": "linkedin.com/in/shahbajz-alam-b47678193",
+    "twitter": "https://twitter.com/CSALam12"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csalam07/cli-symbols-log/issues"
+  },
+  "homepage": "https://github.com/csalam07/cli-symbols-log#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "is-unicode-cli": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^4.1.0",
+    "strip-ansi": "^7.0.1"
+  }
+}
